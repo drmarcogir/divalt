@@ -1,4 +1,4 @@
-betacalc <- function(inputdf,alt,interpol,continous) {
+betacalc <- function(inputdf=NULL,alt=NULL,interpol=NULL,continous=NULL,grouping=NULL) {
     results <- NULL    
     isl.l <- unique(inputdf$Island)
     for (i in 1:length(isl.l)) {
