@@ -1,9 +1,5 @@
 betacalc <- function(inputdf,interpol) {
-
-    # island list
-    
-    results <- NULL
-    
+    results <- NULL    
     isl.l <- unique(inputdf$Island)
     
     for (i in 1:length(isl.l)) {
