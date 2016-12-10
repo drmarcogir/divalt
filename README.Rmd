@@ -1,0 +1,17 @@
+# divalt
+*Marco Girardello* (marco.girardello@gmail.com) 
+
+An R package for analysing diversity along elevational gradients. This package is meant to provide a collection of useful functions for the analyses of elevational diversity patterns.
+
+The package can be installed by typing:
+
+```r
+# the devtools package is needed to be able to load the package
+# install.packages("devtools")
+library(devtools)
+install_github("marcog77/rrtmodavg")
+library(rrtmodavg)
+``` 
+
+
+
