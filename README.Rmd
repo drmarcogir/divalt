@@ -7,10 +7,10 @@ The package can be installed by typing:
 
 ```r
 # the devtools package is needed to be able to load the package
-# install.packages("devtools")
+# install.packages("divalt")
 library(devtools)
-install_github("marcog77/rrtmodavg")
-library(rrtmodavg)
+install_github("marcog77/divalt")
+library(divalt)
 ``` 
 
 
