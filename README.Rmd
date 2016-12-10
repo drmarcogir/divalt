@@ -1,7 +1,7 @@
 # divalt
 *Marco Girardello* (marco.girardello@gmail.com) 
 
-An R package for analysing diversity along elevational gradients. This package is meant to provide a collection of useful functions for the analyses of elevational diversity patterns.
+An R package for analysing species diversity patterns along elevational gradients. This package is meant to provide a collection of useful functions for the analyses of elevational diversity patterns.
 
 The package can be installed by typing:
 
