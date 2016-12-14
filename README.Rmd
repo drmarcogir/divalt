@@ -12,6 +12,14 @@ library(devtools)
 install_github("marcog77/divalt")
 library(divalt)
 ``` 
+# Example usage
+What follows are some simple examples of how this package can be used to analyse elevational diversity patterns.
 
 
+## Beta diversity between altitudinal bands
+The function `betacar()` calculates beta diversity between altitudinal bands starting from a community data matrix following the methods implemented in Carvahlo et al. (2012) and
+Baselga et al. (2011). The function can be applied to a dataset containing data from one of more elevationa gradients. The function 
+
+
+## Beta  
 
