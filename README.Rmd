@@ -37,15 +37,12 @@ Example using the ant data from Longino & Colwell (2011):
 ## Mid-domain effect
 
 
-
 ## Rapoport's rule
 
 
 ## Distance-decay in beta diversity?
 
 
-
-## Distance-decay in beta diversity?
-
+## Species area-curve for different altitudinal bands
 
 
