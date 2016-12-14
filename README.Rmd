@@ -30,7 +30,22 @@ The functions `betacar()` `betabas()` calculate beta diversity between altitudin
 Example using the ant data from Longino & Colwell (2011):
 
 
+## Beta-Whittaker
 
 
-## Beta  
+
+## Mid-domain effect
+
+
+
+## Rapoport's rule
+
+
+## Distance-decay in beta diversity?
+
+
+
+## Distance-decay in beta diversity?
+
+
 
