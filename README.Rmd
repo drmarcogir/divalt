@@ -43,6 +43,6 @@ Example using the ant data from Longino & Colwell (2011):
 ## Distance-decay in beta diversity?
 
 
-## Species area-curve for different altitudinal bands
+## Species area-curve models
 
 
