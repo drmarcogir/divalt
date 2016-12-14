@@ -37,7 +37,7 @@ Example using the ant data from Longino & Colwell (2011):
 ## Mid-domain effect
 
 
-## Rapoport's rule
+## Rapoport's rule 
 
 
 ## Distance-decay in beta diversity?
