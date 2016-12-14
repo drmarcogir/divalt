@@ -13,13 +13,15 @@ install_github("marcog77/divalt")
 library(divalt)
 ``` 
 # Example usage
-What follows are some simple examples of how this package can be used to analyse elevational diversity patterns. All the examples below were calculated
-using data derived from a public dataset from 
+What follows are some simple examples of how this package can be used to analyse elevational diversity patterns. All the examples below make use
+of the publicly available dataset published by John T. Longino and Robert K. Colwell. 2011. Density compensation, species composition, and richness of ants on a neotropical elevational gradient. Ecosphere 2:art29.
 
 
 ## Beta diversity between elevational bands
 The functions `betacar()` `betabas()` calculate beta diversity between altitudinal bands starting from a community data matrix following the methods implemented in Carvalho et al. (2012) and Baselga et al. (2010). These functions can be applied to a dataset containing data from one of more elevationa gradients. `betacar()` partitions beta diversity into
 its richness and replacement components whereas, `betabas()` partitions beta diversity into its replacement and nestedness components. 
+
+Example using the ant data from Longino & Colwell (2011):
 
 
 ## Beta  
