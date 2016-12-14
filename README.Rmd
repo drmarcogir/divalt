@@ -16,6 +16,13 @@ library(divalt)
 What follows are some simple examples of how this package can be used to analyse elevational diversity patterns. All the examples below make use
 of the publicly available dataset published in John T. Longino and Robert K. Colwell. 2011. Density compensation, species composition, and richness of ants on a neotropical elevational gradient. Ecosphere 2:art29.
 
+## Required Packages
+
+```{r packages, message=FALSE}
+library(ggplot2)
+# for plotting
+```
+
 
 ## Beta diversity between elevational bands
 The functions `betacar()` `betabas()` calculate beta diversity between altitudinal bands starting from a community data matrix, following the methods implemented in Carvalho et al. (2012) and Baselga et al. (2010). These functions can be applied to a dataframe containing data from one of more elevational gradients. `betacar()` partitions beta diversity into its richness and replacement components, whereas `betabas()` partitions beta diversity into its replacement and nestedness components. 
