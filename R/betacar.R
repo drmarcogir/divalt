@@ -1,7 +1,7 @@
 #' Function for calculating beta diversity between altitudinal bands following the
 #' methods of Carvalho et al. (2012)
 #'  
-#' @ indat = matrix containing community dataset
+#' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
 #' @ group =character vector indicating column name for site IDs (if there is more than one site )
 #' 
