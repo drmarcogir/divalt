@@ -36,7 +36,11 @@ Example using the ant data from Longino & Colwell (2011):
 #' 
 betacar(indat=)
 
+beta1<-betacar(indat=indat,alt="Elevation")
+
+
 ``` 
+
 
 ## Beta-Whittaker
 
