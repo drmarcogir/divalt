@@ -31,13 +31,11 @@ The functions `betacar()` `betabas()` calculate beta diversity between altitudin
 Example using the ant data from Longino & Colwell (2011):
 
 ```r
-#' The function can compute...
-#' @
-#' 
-betacar(indat=)
+#' Partition beta diversity into richhness and replacement components
 
 beta1<-betacar(indat=indat,alt="Elevation")
 
+head(beta1[[1]])
 
 ``` 
 
