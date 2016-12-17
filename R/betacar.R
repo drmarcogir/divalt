@@ -25,7 +25,6 @@ betacar<- function(indat=NULL,alt=NULL,group=NULL) {
                 Brepl[z] <- betaValues$Brepl
                 Brich[z] <- betaValues$Brich
             } 
-            mean(alt.l[y],alt.l[y+1])
             res <- data.frame(Btotal = mean(Btotal), Brepl = mean(Brepl),Brich = mean(Brich), Altitude=paste(alt.l[y],alt.l[y+1],sep="-"),Altitude.midpoint=((alt.l[y]+alt.l[y+1])/2)) 
             results <- rbind(res, results)
         } 
