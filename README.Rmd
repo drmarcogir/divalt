@@ -48,10 +48,9 @@ head(beta1[[1]])
 # Extract plotted results from slot 2 
 beta1[[2]]
 
-# Partition beta diversity into nestedness and replacement components
-beta1<-betacar(indat=indat,alt="Elevation")
-
 ``` 
+
+![Graphical output](betacar.png)
 
 
 ## Beta-Whittaker
