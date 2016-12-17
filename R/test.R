@@ -5,3 +5,7 @@ indat=read.csv("/mnt/data1tb/Dropbox/Bryophytes/Pigotdataset/ants.csv")
 #indat=read.csv("/mnt/data1tb/Dropbox/Bryophytes/Pigotdataset/ants2sites.csv")
 
 beta1<-betacar(indat=indat,alt="Elevation")
+
+ggsave(filename="/mnt/data1tb/Dropbox/Bryophytes/divalt/betacar.png",plot =beta1[[2]],width=4,height=3,dpi=100,scale=1)
+
+ggsave(filename="/mnt/data1tb/Dropbox/Bryophytes/divalt/betacar.png",plot =beta1[[2]],width=3,height=3,dpi=100)
