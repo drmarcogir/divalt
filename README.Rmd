@@ -20,14 +20,14 @@ of the publicly available dataset published in John T. Longino and Robert K. Col
 
 ```{r packages, message=FALSE}
 library(reshape);library(rangemodelR);
-library(betapart)
+library(betapart);library(dplyr)
 # for plotting
 library(ggplot2)
 ```
 
 
 ## Partionining of beta diversity between elevational bands
-The functions `betacar()` `betabas()` partition beta diversity calculated by comparing successive altitudinal bands, following the methods implemented in Carvalho et al. (2012) and Baselga et al. (2010). These functions can be applied to a dataframe containing data from one of more elevational gradients. `betacar()` partitions beta diversity into its richness and replacement components, whereas `betabas()` partitions beta diversity into its replacement and nestedness components. 
+The functions `betacar()` `betabas()` partition beta diversity calculated for successive altitudinal bands. The methods used are those implemented in Carvalho et al. (2012) and Baselga et al. (2010). These functions can be applied to a dataframe containing data on one or more elevational gradients. `betacar()` partitions beta diversity into its richness and replacement components (Carvalho et al. 2012), whereas `betabas()` partitions beta diversity into its replacement and nestedness components (Baselga et al. 2010). 
 
 Example using the ant data from Longino & Colwell (2011):
 
