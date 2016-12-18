@@ -1,4 +1,4 @@
-#' Function for testing the Rapoport's rule
+#' Function for testing Rapoport's rule
 #'  
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
