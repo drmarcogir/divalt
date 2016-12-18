@@ -27,7 +27,7 @@ library(ggplot2)
 
 
 ## Partionining of beta diversity between elevational bands
-The functions `betacar()` `betabas()` calculate beta diversity between altitudinal bands starting from a community data matrix, following the methods implemented in Carvalho et al. (2012) and Baselga et al. (2010). These functions can be applied to a dataframe containing data from one of more elevational gradients. `betacar()` partitions beta diversity into its richness and replacement components, whereas `betabas()` partitions beta diversity into its replacement and nestedness components. 
+The functions `betacar()` `betabas()` partition beta diversity calculated by comparing successive altitudinal bands, following the methods implemented in Carvalho et al. (2012) and Baselga et al. (2010). These functions can be applied to a dataframe containing data from one of more elevational gradients. `betacar()` partitions beta diversity into its richness and replacement components, whereas `betabas()` partitions beta diversity into its replacement and nestedness components. 
 
 Example using the ant data from Longino & Colwell (2011):
 
