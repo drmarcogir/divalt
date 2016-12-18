@@ -36,7 +36,7 @@ Example using the ant data from Longino & Colwell (2011):
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'#'@group=character vector indicating column name for elevational gradient ID 
-cc
+
 beta1<-betacar(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
