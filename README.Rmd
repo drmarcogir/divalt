@@ -32,10 +32,12 @@ The functions `betacar()` `betabas()` calculate beta diversity between altitudin
 Example using the ant data from Longino & Colwell (2011):
 
 ```r
-# Partition beta diversity into richhness and replacement components (Carvalho et al. 2012)
+#' Partition beta diversity into richhness and replacement components 
+#' (Carvalho et al. 2012)
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
-#'@group=character vector indicating column name for site IDs (if there is more than one elevational gradient)
+#'#'@group=character vector indicating column name for elevational gradient ID 
+
 beta1<-betacar(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
@@ -58,10 +60,12 @@ beta1[[2]]
 ![Graphical output](betacar.png)
 
 ```r
-# Partition beta diversity into nestedness and replacement components (Baselga et al. 2010)
+#' Partition beta diversity into nestedness and replacement components 
+#'(Baselga et al. 2010)
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
-#'@group=character vector indicating column name for site IDs (if there is more than one elevational gradient)
+#'@group=character vector indicating column name for elevational gradient ID 
+
 
 beta2<-betabas(indat=longino11,alt="Elevation")
 
