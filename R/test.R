@@ -1,6 +1,9 @@
-source("/mnt/data1tb/Dropbox/Bryophytes/divalt/R/support.R")
 
-indat=read.csv("/mnt/data1tb/Dropbox/Bryophytes/Pigotdataset/ants.csv")
+library(reshape);library(ggplot2)
+source("/mnt/data1tb/Dropbox/Bryophytes/divalt/R/support.R")
+source("/mnt/data1tb/Dropbox/Bryophytes/divalt/R/betacar.R")
+
+longino11=read.csv("/mnt/data1tb/Dropbox/Bryophytes/Pigotdataset/ants.csv")
 
 #indat=read.csv("/mnt/data1tb/Dropbox/Bryophytes/Pigotdataset/ants2sites.csv")
 
