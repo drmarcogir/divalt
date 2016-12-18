@@ -94,7 +94,34 @@ method descrived in Whittaker (1960).
 The function `midalt()` provides a test of the mid-domain effect hypothesis following the methods of Colwell & Lees (2000).
 
 ## Rapoport's rule 
-The function `rapalt()` calculates species ranges and create in order to provide a test of the Rapoport's rule (Rapoport 1982) .
+The function `rapalt()` calculates species ranges and create a plot and min values along the altitudinal gradient in order to test Rapoport's rule (Rapoport 1982) .
+
+```r
+#'@indat=name of dataframe containing species incidence data 
+#'@alt=character vector indicating column name for altitude values
+#'@group=character vector indicating column name containing IDs 
+#'for the elevational gradients (if there more than one gradient)
+
+rapres<-rapalt(indat=longino11,alt="Elevation")
+
+# Extract results of computations from slot 1
+head(rapres[[1]])
+                   species minalt maxalt meanalt order
+1 Acanthognathus_ocellatus     50     50      50     1
+2           Azteca_tonduzi     50     50      50     2
+3     Camponotus_chartifex     50     50      50     3
+4  Camponotus_sanctaefidei     50     50      50     4
+5     Cephalotes_cristatus     50     50      50     5
+6            Eciton_vagans     50     50      50     6
+
+
+# Extract plot of results from slot 2 
+rapres[[2]]
+
+``` 
+
+![Graphical output](rapalt.png)
+
 
 ## Distance-decay in beta diversity
 The function `decalt()` calculates distance decay relationship "between altidude and beta diversity components", following the
