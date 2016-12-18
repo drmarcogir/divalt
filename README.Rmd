@@ -33,16 +33,15 @@ Example using the ant data from Longino & Colwell (2011):
 
 ```r
 #' Partition beta diversity into richhness and replacement components (Carvalho et al. 2012)
-#' Function arguments:
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'@group=character vector indicating column name containing IDs 
-#'for the elevational gradient (if there more than one)
+#'for the elevational gradients (if there more than one gradient)
 
 beta1<-betacar(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
-head(beta1[[1]])
+beta1[[1]]
 
      Btotal     Brepl     Brich  Altitude Altitude.midpoint
 1 0.9062500 0.2500000 0.6562500 1500-2000              1750
@@ -62,16 +61,16 @@ beta1[[2]]
 
 ```r
 #' Partition beta diversity into nestedness and replacement components (Baselga et al. 2010)
-#' Function arguments:
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
-#'@group=character vector indicating column name for elevational gradient ID 
+#'@group=character vector indicating column name containing IDs 
+#'for the elevational gradients (if there more than one gradient)
 
 
 beta2<-betabas(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
-head(beta2[[1]])
+beta2[[1]]
 
      Btotal     Brepl     Bnest  Altitude Altitude.midpoint
 1 0.9062500 0.7272727 0.1789773 1500-2000              1750
