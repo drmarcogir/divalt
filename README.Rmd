@@ -54,19 +54,21 @@ beta1[[2]]
 ![Graphical output](betacar.png)
 
 
-## Beta-Whittaker
-The function `betaw()` calculates the Beta Whittaker diversity starting from a community data matrix.  
-
+## Whittaker's species turnover
+The function `betaw()` calculates the  Whittaker's species turnover starting from a community data matrix following the
+methods of Whittaker (1960).
 
 ## Mid-domain effect
-
+The function `midalt()` provides a test of the mid-domain effect hypothesis following the methods of Colwell & Lees (2000).
 
 ## Rapoport's rule 
+The function `rapalt()` calculates species ranges and create in order whether the provide a test of the rapoport's rule.
+
+## Distance-decay in beta diversity
+The function `decalt()` calculates distance decay relationship between altidude and beta diversity components following the
+methods of 
 
 
-## Distance-decay in beta diversity?
-
-
-## Species area-curve models
+References
 
 
