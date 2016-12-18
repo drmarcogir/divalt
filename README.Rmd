@@ -19,7 +19,8 @@ of the publicly available dataset published in John T. Longino and Robert K. Col
 ## Required Packages
 
 ```{r packages, message=FALSE}
-library(reshape);library(rangemodelR)
+library(reshape);library(rangemodelR);
+library(betapart)
 # for plotting
 library(ggplot2)
 ```
