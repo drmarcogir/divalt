@@ -32,8 +32,10 @@ The functions `betacar()` `betabas()` calculate beta diversity between altitudin
 Example using the ant data from Longino & Colwell (2011):
 
 ```r
-# Partition beta diversity into richhness and replacement components
-# note that the betabas function takes the same arguments as betacar.
+# Partition beta diversity into richhness and replacement components (Carvalho et al. 2012)
+#'@indat=name of dataframe containing species incidence data 
+#'@alt=character vector indicating column name for altitude values
+#'@group=character vector indicating column name for site IDs (if there is more than one elevational gradient)
 beta1<-betacar(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
@@ -47,13 +49,38 @@ head(beta1[[1]])
 5 0.4389313 0.1984733 0.2404580   150-300               225
 6 0.3224638 0.2898551 0.0326087    50-150               100
 
-# Extract plotted results from slot 2 
+# Extract plot of results from slot 2 
 beta1[[2]]
+
 
 ``` 
 
 ![Graphical output](betacar.png)
 
+```r
+# Partition beta diversity into nestedness and replacement components (Baselga et al. 2010)
+#'@indat=name of dataframe containing species incidence data 
+#'@alt=character vector indicating column name for altitude values
+#'@group=character vector indicating column name for site IDs (if there is more than one elevational gradient)
+
+beta2<-betabas(indat=longino11,alt="Elevation")
+
+# Extract results of computations from slot 1
+head(beta1[[1]])
+
+     Btotal     Brepl     Bnest  Altitude Altitude.midpoint
+1 0.9062500 0.7272727 0.1789773 1500-2000              1750
+2 0.7552448 0.5454545 0.2097902 1070-1500              1285
+3 0.7482759 0.5730994 0.1751764  500-1070               785
+4 0.4835165 0.3121951 0.1713214   300-500               400
+5 0.4389313 0.2613065 0.1776248   150-300               225
+6 0.3224638 0.2996255 0.0228383    50-150               100
+
+# Extract plot of results from slot 2 
+beta2[[2]]
+
+``` 
+![Graphical output](betabas.png)
 
 ## Whittaker's species turnover
 The function `betaw()` calculates the  Whittaker's species turnover starting from a community data matrix following the
