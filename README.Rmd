@@ -71,7 +71,7 @@ beta1[[2]]
 beta2<-betabas(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
-head(beta1[[1]])
+head(beta2[[1]])
 
      Btotal     Brepl     Bnest  Altitude Altitude.midpoint
 1 0.9062500 0.7272727 0.1789773 1500-2000              1750
