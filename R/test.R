@@ -8,4 +8,4 @@ beta1<-betacar(indat=indat,alt="Elevation")
 
 ggsave(filename="/mnt/data1tb/Dropbox/Bryophytes/divalt/betacar.png",plot =beta1[[2]],width=4,height=3,dpi=100,scale=1)
 
-ggsave(filename="/mnt/data1tb/Dropbox/Bryophytes/divalt/betacar.png",plot =beta1[[2]],width=3,height=3,dpi=100)
+ggsave(filename="/mnt/data1tb/Dropbox/Bryophytes/divalt/betacar.png",plot =beta1[[2]],width=4,height=3,dpi=300)
