@@ -55,7 +55,7 @@ beta1[[2]]
 
 
 ## Beta-Whittaker
-
+The function `betaw()` calculates the Beta Whittaker diversity starting from a community data matrix.  
 
 
 ## Mid-domain effect
