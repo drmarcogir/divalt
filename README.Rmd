@@ -33,7 +33,7 @@ Example using the ant data from Longino & Colwell (2011):
 ```r
 # Partition beta diversity into richhness and replacement components
 # note that the betabas function takes the same arguments as betacar.
-beta1<-betacar(indat=indat,alt="Elevation")
+beta1<-betacar(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
 head(beta1[[1]])
