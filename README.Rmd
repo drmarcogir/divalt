@@ -50,7 +50,7 @@ beta1[[2]]
 
 ``` 
 
-![Graphical output](betacar1.png)
+![Graphical output](betacar.png)
 
 
 ## Beta-Whittaker
