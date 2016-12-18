@@ -65,7 +65,7 @@ The function `midalt()` provides a test of the mid-domain effect hypothesis foll
 The function `rapalt()` calculates species ranges and create in order to provide a test of the Rapoport's rule (Rapoport 1982) .
 
 ## Distance-decay in beta diversity
-The function `decalt()` calculates distance decay relationship between altidude and beta diversity components following the
+The function `decalt()` calculates distance decay relationship "between altidude and beta diversity components", following the
 methods of 
 
 
