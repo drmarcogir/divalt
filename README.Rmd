@@ -119,7 +119,7 @@ betawres[[2]]
 ![Graphical output](betaw.png)
 
 ## Mid-domain effect
-The function `midalt()` provides a test of the mid-domain effect hypothesis (Colwell & Lees 2000), following the methods of Rahbek et al. (2007).
+The function `midalt()` provides a test of the mid-domain effect hypothesis (Colwell & Lees 2000) using the methods implemented in Rahbek et al. (2007).
 
 ```r
 
@@ -150,7 +150,7 @@ mderes[[2]]
 ![Graphical output](mdealt.png)
 
 ## Rapoport's rule 
-The function `rapalt()` calculates species ranges and create a plot and min values along the altitudinal gradient in order to test Rapoport's rule (Rapoport 1982) .
+The function `rapalt()` calculates species ranges and create a plot and min values along the altitudinal gradient, in order to test Rapoport's rule (Rapoport 1982) .
 
 ```r
 #'@indat=name of dataframe containing species incidence data 
