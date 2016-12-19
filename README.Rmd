@@ -187,7 +187,7 @@ is decomposed into richness and replacement components following the methods of
 ```r
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
-#' @ group =character vector indicating column name for elevational gradient IDs (if there is more than one stuy area)
+
 
 decayres<-decalt(indat=longino11,alt="Elevation")
 
