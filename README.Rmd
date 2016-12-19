@@ -91,7 +91,6 @@ method descrived in Whittaker (1960). This function only works if multiple sampl
 See example dataset for data structure. 
 
 ```r
-#' Calculate's Whittaker's species turnover
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
 #' @ group =character vector indicating column name for elevational gradient IDs 
@@ -122,8 +121,6 @@ betawres[[2]]
 The function `midalt()` provides a test of the mid-domain effect hypothesis (Colwell & Lees 2000) using the methods implemented in Rahbek et al. (2007).
 
 ```r
-
-#' Partition beta diversity into nestedness and replacement components (Baselga et al. 2010)
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'@group=character vector indicating column name containing IDs 
