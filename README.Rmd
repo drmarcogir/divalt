@@ -90,7 +90,32 @@ The function `betaw()` calculates the  Whittaker's species turnover starting fro
 method descrived in Whittaker (1960). This function only works if multiple samples were taken across each elevational band.
 See example dataset for data structure. 
 
+```r
+#' Calculate's Whittaker's species turnover
+#' @ indat = matrix containing community data
+#' @ alt = character vector indicating column name for altitude values
+#' @ group =character vector indicating column name for elevational gradient IDs (if there is more than one stuy area)
+#' @ sname =character vector sample IDs within each band of the elevational gradient
 
+betawres<-betaw(indat=longino11a,alt="Elevation",sname="sample")
+
+# Extract results of computations from slot 1
+head(betawres[[1]])
+ Altitude variable value
+1     2000    Gamma    14
+2     1500    Gamma    56
+3     1070    Gamma   122
+4      500    Gamma   241
+5      300    Gamma   173
+6      150    Gamma   236
+
+
+# Extract plot of results from slot 2 
+betawres[[2]]
+
+```
+
+![Graphical output](betaw.png)
 
 ## Mid-domain effect
 The function `midalt()` provides a test of the mid-domain effect hypothesis following the methods of Colwell & Lees (2000).
