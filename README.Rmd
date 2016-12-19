@@ -63,7 +63,8 @@ beta1[[2]]
 #' Partition beta diversity into nestedness and replacement components (Baselga et al. 2010)
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
-#'@group=group =character vector indicating column name for elevational gradient IDs (if there #' is more than one stuy area)
+#'@group=character vector indicating column name for elevational gradient IDs 
+#'(if there is more than one study area)
 
 beta2<-betabas(indat=longino11,alt="Elevation")
 
