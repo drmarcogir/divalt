@@ -179,11 +179,25 @@ rapres[[2]]
 ![Graphical output](rapalt.png)
 
 
-## Distance-decay in beta diversity
-The function `decalt()` calculates distance decay relationship "between altidude and beta diversity components", following the
-methods of 
-
+## Distance-decay in dissimilarity of species composition
+The function `decalt()` calculates the distance decay relationship "between altidude and beta diversity components". Dissimilarity
+is decomposed into richness and replacement components following the methods of  
 
 References
 
+Baselga, A. (2010) Partitioning the turnover and nestedness components of beta diversity. 
+Global Ecology and Biogeography, 19, 134–143.
 
+Carvalho, J.C., Cardoso, P. & Gomes, P. (2012) Determining the relative roles of species replacement and species 
+richness differences in generating beta-diversity patterns. Global Ecology and Biogeography, 21, 760–771.
+
+Colwell, R.K. & Lees, D.C. (2016) The mid-domain effect: geometric constraints on the geography of species richness. 
+Trends in Ecology & Evolution, 15, 70–76.
+
+Longino, J.T. & Colwell, R.K. (2011) Density compensation, species composition, and richness of ants on a neotropical elevational gradient. 
+Ecosphere, 2, 1–20.
+
+Rapoport, E. H. (1982). Areography. Geographical Strategies of Species. Trad. B. Drausal, Pergamon Press, Oxford. 
+
+Whittaker, R.H. (1960) Vegetation of the Siskiyou Mountains, Oregon and California. 
+Ecological Monographs, 30, 280– 338
