@@ -64,8 +64,6 @@ beta1[[2]]
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'@group=group =character vector indicating column name for elevational gradient IDs (if there #' is more than one stuy area)
-#'for the elevational gradients (if there more than one gradient)
-
 
 beta2<-betabas(indat=longino11,alt="Elevation")
 
