@@ -94,7 +94,8 @@ See example dataset for data structure.
 #' Calculate's Whittaker's species turnover
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
-#' @ group =character vector indicating column name for elevational gradient IDs (if there is more than one stuy area)
+#' @ group =character vector indicating column name for elevational gradient IDs 
+#' (if there is more than one stuy area)
 #' @ sname =character vector sample IDs within each band of the elevational gradient
 
 betawres<-betaw(indat=longino11a,alt="Elevation",sname="sample")
