@@ -185,8 +185,6 @@ The function `decalt()` calculates the distance decay relationship "between alti
 is decomposed into richness and replacement components following the methods of  
 
 ```r
-#' Creates a plot of dissimilarity between communities at different elevational bands and elevational distance
-#'  
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
 #' @ group =character vector indicating column name for elevational gradient IDs (if there is more than one stuy area)
