@@ -36,7 +36,7 @@ Example using the ant data from Longino & Colwell (2011):
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'@group=character vector indicating column name containing IDs 
-#'for the elevational gradients (if there more than one gradient)
+#'(if there is more than one study area)
 
 beta1<-betacar(indat=longino11,alt="Elevation")
 
@@ -125,7 +125,7 @@ The function `midalt()` provides a test of the mid-domain effect hypothesis (Col
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'@group=character vector indicating column name containing IDs 
-#'for the elevational gradients (if there more than one gradient)
+#'for the elevational gradients (if there is more than one study area)
 
 mderes<-mdealt(indat=longino11,alt="Elevation")
 
@@ -154,7 +154,7 @@ The function `rapalt()` calculates species ranges and create a plot and min valu
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
 #'@group=character vector indicating column name containing IDs 
-#'for the elevational gradients (if there more than one gradient)
+#'for the elevational gradients (if there is more than one study area)
 
 rapres<-rapalt(indat=longino11,alt="Elevation")
 
@@ -184,7 +184,7 @@ The function `decalt()`  quantifies the increase of dissimilarity in species ass
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
 #'@group=character vector indicating column name containing IDs 
-#'for the elevational gradients (if there more than one gradient)
+#'for the elevational gradients (if there is more than one study area)
 
 decayres<-decalt(indat=longino11,alt="Elevation")
 
