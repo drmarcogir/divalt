@@ -1,8 +1,7 @@
-#' Creates a plot of dissimilarity between communities at different elevational bands and elevational distance
-#'  
 #' @ indat = matrix containing community data
 #' @ alt = character vector indicating column name for altitude values
-#' @ group =character vector indicating column name for elevational gradient IDs (if there is more than one stuy area)
+#' @ group =character vector indicating column name for elevational gradient 
+#' IDs (if there is more than one stuy area)
 
 decalt<-function(indat=NULL,alt=NULL,group=NULL) {
     restmp<-NULL
