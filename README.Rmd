@@ -119,7 +119,7 @@ betawres[[2]]
 ![Graphical output](betaw.png)
 
 ## Mid-domain effect
-The function `midalt()` provides a test of the mid-domain effect hypothesis Colwell & Lees (2000) following the methods of Rahbek et al. (2007).
+The function `midalt()` provides a test of the mid-domain effect hypothesis (Colwell & Lees 2000), following the methods of Rahbek et al. (2007).
 
 ```r
 
@@ -180,8 +180,7 @@ rapres[[2]]
 
 
 ## Distance-decay in dissimilarity of species composition
-The function `decalt()` calculates the distance decay relationship "between altidude and beta diversity components". Dissimilarity
-is decomposed into richness and replacement components following the methods of  
+The function `decalt()` calculates the distance decay relationship "between altidude and beta diversity components". Dissimilarity is decomposed into richness and replacement components following the methods of  
 
 ```r
 #' @ indat = matrix containing community data
@@ -222,6 +221,8 @@ Trends in Ecology & Evolution, 15, 70–76.
 
 Longino, J.T. & Colwell, R.K. (2011) Density compensation, species composition, and richness of ants on a neotropical elevational gradient. 
 Ecosphere, 2, 1–20.
+
+Nekola, J.C. & White, P.S. (1999) The distance decay of similarity in biogeography and ecology. Journal of Biogeography, 26, 867–878.
 
 Rahbek, C., Gotelli, N., Colwell, R., Entsminger, G., Rangel, T. & Graves, G. (2007) Predicting
 continental-scale patterns of bird species richness with spatially explicit models. Proceedings of the Royal Society B: Biological Sciences, 274, 165.
