@@ -20,7 +20,8 @@ of the publicly available dataset published in John T. Longino and Robert K. Col
 
 ```{r packages, message=FALSE}
 library(reshape);library(rangemodelR);
-library(betapart);library(dplyr)
+library(betapart);library(dplyr);
+library(simba);
 # for plotting
 library(ggplot2)
 ```
@@ -182,6 +183,32 @@ rapres[[2]]
 ## Distance-decay in dissimilarity of species composition
 The function `decalt()` calculates the distance decay relationship "between altidude and beta diversity components". Dissimilarity
 is decomposed into richness and replacement components following the methods of  
+
+```r
+#' Creates a plot of dissimilarity between communities at different elevational bands and elevational distance
+#'  
+#' @ indat = matrix containing community data
+#' @ alt = character vector indicating column name for altitude values
+#' @ group =character vector indicating column name for elevational gradient IDs (if there is more than one stuy area)
+
+decayres<-decalt(indat=longino11,alt="Elevation")
+
+# Extract results of computations from slot 1
+head(decayres[[1]])
+
+  Elevational.distance variable     value
+1                  500   Btotal 0.9062500
+2                  930   Btotal 0.9538462
+3                  430   Btotal 0.7552448
+4                 1500   Btotal 0.9759036
+5                 1000   Btotal 0.8959108
+6                  570   Btotal 0.7482759
+
+# Extract plot of results from slot 2 
+decayres[[2]]
+
+``` 
+
 
 References
 
