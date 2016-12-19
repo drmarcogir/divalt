@@ -179,8 +179,8 @@ rapres[[2]]
 ![Graphical output](rapalt.png)
 
 
-## Distance-decay in dissimilarity of species composition
-The function `decalt()` calculates the distance decay relationship "between altidude and beta diversity components". Dissimilarity is decomposed into richness and replacement components following the methods of  
+## Distance-decay of dissimilarity in species assemblages
+The function `decalt()`  quantifies the increase of dissimilarity in species assemblages and elevational distance. Dissimilarity is calculated using Carvalho et al. (2012) methods and is partitioned into richness and replacement components.
 
 ```r
 #' @ indat = matrix containing community data

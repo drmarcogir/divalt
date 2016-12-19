@@ -31,7 +31,7 @@ decalt<-function(indat=NULL,alt=NULL,group=NULL) {
         }
         restmp1<-melt(restmp,id.vars=c("Elevational.distance")) 
         decayp<-ggplot(restmp1,aes(x=Elevational.distance,y=value))+geom_point(size=1.5)+
-            theme_bw()+ylab("Beta Diversity")+xlab("Elevational Distance")+theme(legend.title=element_blank())+
+            theme_bw()+ylab("Dissimilarity")+xlab("Elevational Distance")+theme(legend.title=element_blank())+
             theme(strip.text.x = element_text(size=9, face="bold"),strip.text.y = element_text(size=9, face="bold"))+
             facet_wrap(~variable)
         results<-list(restmp1,decayp)
@@ -71,7 +71,7 @@ decalt<-function(indat=NULL,alt=NULL,group=NULL) {
         }
             restmp3<-melt(restmp2,id.vars=c("site","Elevational.distance")) 
             decayp1<-ggplot(restmp3,aes(x=Elevational.distance,y=value))+geom_point(size=1.5)+
-                theme_bw()+ylab("Beta Diversity")+xlab("Elevational Distance")+theme(legend.title=element_blank())+
+                theme_bw()+ylab("Dissimilarity")+xlab("Elevational Distance")+theme(legend.title=element_blank())+
                 theme(strip.text.x = element_text(size=9, face="bold"),strip.text.y = element_text(size=9, face="bold"))+
                 facet_grid(site~variable)
             results<-list(restmp3,decayp1)
