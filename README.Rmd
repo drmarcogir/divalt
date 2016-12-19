@@ -20,8 +20,7 @@ of the publicly available dataset published in John T. Longino and Robert K. Col
 
 ```{r packages, message=FALSE}
 library(reshape);library(rangemodelR);
-library(betapart);library(dplyr);
-library(simba);
+library(betapart);library(dplyr);library(simba);
 # for plotting
 library(ggplot2)
 ```
