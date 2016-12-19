@@ -93,6 +93,33 @@ method descrived in Whittaker (1960).
 ## Mid-domain effect
 The function `midalt()` provides a test of the mid-domain effect hypothesis following the methods of Colwell & Lees (2000).
 
+```r
+
+#' Partition beta diversity into nestedness and replacement components (Baselga et al. 2010)
+#'@indat=name of dataframe containing species incidence data 
+#'@alt=character vector indicating column name for altitude values
+#'@group=character vector indicating column name containing IDs 
+#'for the elevational gradients (if there more than one gradient)
+
+mderes<-mdealt(indat=indat,alt="Elevation",group="site")
+
+# Extract results of computations from slot 1
+head(mderes[[1]])
+
+  mod.rich   mod.sd Altitude           grouping site
+1  105.607 8.470909       50 Simulated Richness    2
+2  149.389 8.805408      150 Simulated Richness    2
+3  178.364 8.024706      300 Simulated Richness    2
+4  202.166 6.597118      500 Simulated Richness    2
+5  178.166 8.531074     1070 Simulated Richness    2
+6  149.609 9.084969     1500 Simulated Richness    2
+
+# Extract plot of results from slot 2 
+mderes[[2]]
+
+
+``` 
+
 ## Rapoport's rule 
 The function `rapalt()` calculates species ranges and create a plot and min values along the altitudinal gradient in order to test Rapoport's rule (Rapoport 1982) .
 
