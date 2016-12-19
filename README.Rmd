@@ -129,7 +129,7 @@ The function `midalt()` provides a test of the mid-domain effect hypothesis foll
 #'@group=character vector indicating column name containing IDs 
 #'for the elevational gradients (if there more than one gradient)
 
-mderes<-mdealt(indat=indat,alt="Elevation",group="site")
+mderes<-mdealt(indat=longino11,alt="Elevation")
 
 # Extract results of computations from slot 1
 head(mderes[[1]])
