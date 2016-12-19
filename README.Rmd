@@ -119,7 +119,7 @@ betawres[[2]]
 ![Graphical output](betaw.png)
 
 ## Mid-domain effect
-The function `midalt()` provides a test of the mid-domain effect hypothesis following the methods of Colwell & Lees (2000).
+The function `midalt()` provides a test of the mid-domain effect hypothesis Colwell & Lees (2000) following the methods of Rahbek et al. (2007).
 
 ```r
 
@@ -222,6 +222,9 @@ Trends in Ecology & Evolution, 15, 70–76.
 
 Longino, J.T. & Colwell, R.K. (2011) Density compensation, species composition, and richness of ants on a neotropical elevational gradient. 
 Ecosphere, 2, 1–20.
+
+Rahbek, C., Gotelli, N., Colwell, R., Entsminger, G., Rangel, T. & Graves, G. (2007) Predicting
+continental-scale patterns of bird species richness with spatially explicit models. Proceedings of the Royal Society B: Biological Sciences, 274, 165.
 
 Rapoport, E. H. (1982). Areography. Geographical Strategies of Species. Trad. B. Drausal, Pergamon Press, Oxford. 
 
