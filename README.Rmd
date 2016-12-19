@@ -209,6 +209,7 @@ decayres[[2]]
 
 ``` 
 
+![Graphical output](decalt.png)
 
 References
 
