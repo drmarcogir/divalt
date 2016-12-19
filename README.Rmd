@@ -119,6 +119,7 @@ mderes[[2]]
 
 
 ``` 
+![Graphical output](mdealt.png)
 
 ## Rapoport's rule 
 The function `rapalt()` calculates species ranges and create a plot and min values along the altitudinal gradient in order to test Rapoport's rule (Rapoport 1982) .
