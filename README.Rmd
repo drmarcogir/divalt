@@ -88,7 +88,10 @@ beta2[[2]]
 
 ## Whittaker's species turnover
 The function `betaw()` calculates the  Whittaker's species turnover starting from a community data matrix following the
-method descrived in Whittaker (1960).
+method descrived in Whittaker (1960). This function only works if multiple samples were taken across each elevational band.
+See example dataset for data structure. 
+
+
 
 ## Mid-domain effect
 The function `midalt()` provides a test of the mid-domain effect hypothesis following the methods of Colwell & Lees (2000).
