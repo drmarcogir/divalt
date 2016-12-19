@@ -95,7 +95,8 @@ See example dataset for data structure.
 #' @ alt = character vector indicating column name for altitude values
 #' @ group =character vector indicating column name for elevational gradient IDs 
 #' (if there is more than one stuy area)
-#' @ sname =character vector sample IDs within each band of the elevational gradient
+#' @ sname =character vector  indicating column name for sample IDs (i.e. samples 
+#' collected within each elevational band)
 
 betawres<-betaw(indat=longino11a,alt="Elevation",sname="sample")
 
