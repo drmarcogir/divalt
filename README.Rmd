@@ -35,7 +35,7 @@ Example using the ant data from Longino & Colwell (2011):
 #' Partition beta diversity into richhness and replacement components (Carvalho et al. 2012)
 #'@indat=name of dataframe containing species incidence data 
 #'@alt=character vector indicating column name for altitude values
-#'@group=character vector indicating column name containing IDs 
+#'@group=character vector indicating column name for elevational gradient IDs 
 #'(if there is more than one study area)
 
 beta1<-betacar(indat=longino11,alt="Elevation")
