@@ -178,7 +178,7 @@ rapres[[2]]
 
 
 ## Distance-decay of dissimilarity in species assemblages
-The function `decalt()`  quantifies the increase of dissimilarity in species assemblages and elevational distance. This is equivalent to the distance decay of similarity (Nekola & White 1999). Dissimilarity is is partitioned into richness and replacement components using the methods implemented in Carvalho et al. (2012).
+The function `decalt()`  quantifies the increase of dissimilarity in species assemblages in relation to elevational distance. This is equivalent to the distance decay of similarity (Nekola & White 1999). Dissimilarity is is partitioned into richness and replacement components using the methods implemented in Carvalho et al. (2012).
 
 ```r
 #' @ indat = matrix containing community data
