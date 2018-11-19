@@ -9,7 +9,7 @@ The package can be installed by typing:
 # the devtools package is needed to be able to load the package
 # install.packages("devtools")
 library(devtools)
-install_github("marcog77/divalt")
+install_github("drmarcogir/divalt")
 library(divalt)
 ``` 
 # Example usage
